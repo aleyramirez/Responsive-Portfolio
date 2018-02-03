@@ -1,0 +1,268 @@
+/* About CSS style */
+
+.aside { 
+	position: absolute;
+	right: -16px;
+	width: 270px;
+	margin: 40px;
+	background: rgba(255, 255, 255, 0.8);
+	font-size: 20px;
+	font-color: #4ece9f;
+}
+.section {  
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	position: absolute;
+	left: 210px;
+	float: left;
+	height: 500px;
+	width: 650px;
+	background: rgba(255, 255, 255, 0.8);
+	margin: 40px;
+	padding-bottom: 40px;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.nav {
+	border-bottom: solid 3px #4ece9f;
+	overflow: auto;
+	width: 1500px;
+	height: 58px;
+	overflow: hidden;
+	background-color: white;
+}
+.nav a {
+	display: inline;
+	border-right: solid #bababa; 
+	float: left;
+	color: #bababa;
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+	font-size: 17px; 
+}
+.nav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+.nav a.active {
+	margin-left: 17%;
+	margin-right: 33%;
+	background-color: #4ece9f;
+	border-right: none;
+	color: white;
+}
+#name { 
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 23px;
+}
+.me, .connect {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 23px;
+	margin: 15px;
+	padding: 15px;
+	border-bottom: solid 3px #4ece9f;;
+}
+#contact{
+	border-right: none;
+}
+.icon {
+	margin: 20px;
+	text-align: center;
+}
+.profile{
+	display: inline;
+	float: left;
+}
+#me {
+	transform: rotate(90deg);
+	height: 150px;
+	width: 150px;
+}
+footer {
+	position: fixed;
+	height: 40px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #7c7c7c;
+	color: white;
+	text-align: center;
+	border-top: solid 3px #4ece9f;
+}
+h2 {
+	color: #4ece9f;
+}
+
+body { 
+	position: relative;
+	background-image: url(../images/wooden.jpeg);
+	background-repeat: repeat;
+	height: 100%;
+	width: 1260px;
+	margin: 0;
+}
+img {
+	height: 50px;
+	width: 50px;
+}
+/* Portfolio CSS style */
+
+.portfolio_container {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	position: absolute;
+	left: 210px;
+	float: left;
+	height: auto;
+	width: 650px;
+	background: rgba(255, 255, 255, 0.8);
+	margin: 40px;	
+	z-index: -1;
+}
+.portfolio_img {
+	display: inline;
+	float: left;
+	margin: 15px;
+	width: 290px;
+	height: 200px;
+	border:0px;
+	padding-bottom: 30px;	
+	position: relative;
+}
+.portfolio_subtext1 {
+	position: absolute;
+    top: 245px;
+    left: 15px;
+    font-size: 150%;
+    padding: 10px 0px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4ece9f;
+    width: 290px;
+    text-align: center;
+}
+.portfolio_subtext2 {
+	position: absolute;
+    top: 245px;
+    right: 25px;
+    font-size: 150%;
+    padding: 10px 0px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4ece9f;
+    width: 290px;
+    text-align: center;
+}
+.portfolio_subtext3 {
+	position: absolute;
+    top: 505px;
+    left: 15px;
+    font-size: 150%;
+    padding: 10px 0px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4ece9f;
+    width: 290px;
+    text-align: center;
+}
+.portfolio_subtext4 {
+	position: absolute;
+    top: 245px;
+    right: 25px;
+    font-size: 150%;
+    padding: 10px 0px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4ece9f;
+    width: 290px;
+    text-align: center;
+}
+.portfolio_subtext5 {
+	position: absolute;
+    top: 505px;
+    right: 25px;
+    font-size: 150%;
+    padding: 10px 0px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4ece9f;
+    width: 290px;
+    text-align: center;
+}
+.portfolio_subtext6 {
+	position: absolute;
+    top: 764px;
+    left: 15px;
+    font-size: 150%;
+    padding: 10px 0px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4ece9f;
+    width: 290px;
+    text-align: center;
+}
+.aside_connect {
+
+}
+
+/* Contact CSS style*/
+		/* form style*/
+form {
+	display: block;
+	margin-top: 0em;
+}
+input[type=text], select, textarea {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4ece9f;
+}
+
+#button {
+	background-color: #4ece9f;
+}
+
+@media screen and (max-width: 640px) {
+	li	{
+		display: block;
+		width: 100%;
+		height: 50px;
+   };
+   .footer {
+	font-size: 50px;
+   }
+};
+
+
+@media  screen and (max-width: 768px) {
+	 {
+	}
+ };
+ 
+
+ @media  screen and (max-width: 980px) {
+	li  {
+ 
+	 }
+ };
+ 
